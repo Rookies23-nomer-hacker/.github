@@ -1,12 +1,82 @@
-## Hi there 👋
+# 🔐 Albbamon - 시나리오 기반 모의해킹 프로젝트
 
-<!--
+Albbamon은 **시나리오 기반 모의해킹을 진행하기 위해 "알바몬" 사이트를 벤치마킹하여 개발된 프로젝트**입니다.  
+**Java 17과 Spring Boot 4**를 기반으로 제작되었으며, 웹 애플리케이션 보안 및 취약점 분석 및 모의해킹을 목적으로 개발되었습니다.
 
-**Here are some ideas to get you started:**
+## 💡 주요 기능
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+- **회원 관리**: 회원 가입, 로그인, 프로필 수정 등 사용자 인증 및 관리 기능
+- **구직 기능**: 알바 공고 조회, 지원 기능
+- **구인 기능**: 알바 공고 등록, 수정, 채용 결과 업데이트 기능
+- **커뮤니티**: 알바 경험담 열람 및 등록 기능
+- **프리미엄 공고 구매**: 채용 공고 파워링크 프리미엄 서비스 결제 기능
+
+---
+
+## 🔑 팀원 소개
+| 이름  | 담당 분야 | 역할 | 기여도 |
+|------|---------|------|------|
+| 김민서 | 클라우드 / 웹 | 팀원 | 1.0 |
+| 김희연 | 모바일 | 팀원 | 1.0 |
+| 나경태 | 웹 | 팀원 | 1.0 |
+| 남은희 | 모바일 | 팀원 | 1.0 |
+| 문기건 | 웹 | 팀원 | 1.0 |
+| 박수홍 | 클라우드 / 웹 | 팀장 | 1.0 |
+| 신혁수 | 웹 | 팀원 | 1.0 |
+| 오수환 | 클라우드 / 모바일 | 팀원 | 1.0 |
+| 이대재 | 클라우드 / 모바일 | 클라우드 관리자 | 1.0 |
+| 이민혁 | 모바일 | 팀원 | 1.0 |
+| 전겸성 | 웹 | 팀원 | 1.0 |
+| 최승호 | 모바일 | 팀원 | 1.0 |
+
+## ⚒ 기술 스택
+### 🔨 WEB & WAS Server
+| 기술 | 상세 |
+|------|------|
+| **언어** | Java 17 |
+| **프레임워크** | Spring Boot 3.4.2 |
+| **빌드 도구** | Gradle |
+| **기타** | JSP |
+
+### 🔨 API Server
+| 기술 | 상세 |
+|------|------|
+| **언어** | Java 17 |
+| **프레임워크** | Spring Boot 3.4.2 |
+| **데이터베이스** | MySQL |
+| **빌드 도구** | Gradle |
+| **기타** | JPA |
+
+### 🔨 Mobile
+| 기술 | 상세 |
+|------|------|
+| **OS** | Android |
+| **언어** | Java 21 |
+| **프레임워크** | Android Studio |
+| **기타** | Retrofit |
+
+## ⛅ Cloud Architecture
+
+---
+
+
+## 🔓 보안 테스트 & 모의해킹 시나리오
+본 프로젝트는 웹/모바일 애플리케이션 보안 테스트 및 취약점 분석을 위한 시뮬레이션 환경을 제공합니다.
+
+### 🌖 포함된 취약점 목록
+- SQL Injection
+- XSS (Cross-Site Scripting)
+- CSRF (Cross-Site Request Forgery)
+- Broken Authentication
+- Insecure Direct Object References (IDOR)
+- 보안 헤더 미설정
+
+### 🔎 테스트 도구 추천
+Burp Suite - HTTP 트래픽 분석 및 공격 자동화
+OWASP ZAP - 자동화된 보안 취약점 점검
+SQLMap - SQL Injection 탐지 및 공격 도구
+
+## 📝 라이선스
+본 프로젝트는 연구 및 학습 목적으로 제작되었습니다.
+상업적 사용 및 악의적인 목적의 활용을 금지합니다.
+자세한 내용은 LICENSE 파일을 참고하세요.
