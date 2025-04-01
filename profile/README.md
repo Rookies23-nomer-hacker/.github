@@ -66,6 +66,11 @@ Java 기반의 웹과 어플리케이션으로 제공되며, 취약점 분석 �
 
 ---
 
+## 🌖 ERD
+![Image](https://github.com/user-attachments/assets/db4cd70f-71d6-4e22-bebe-5aab01b58190)
+
+---
+
 ## 🔓 보안 테스트 & 모의해킹 시나리오
 본 프로젝트는 웹/모바일 애플리케이션 보안 테스트 및 취약점 분석을 위한 시뮬레이션 환경을 제공합니다.
 
@@ -76,10 +81,10 @@ Java 기반의 웹과 어플리케이션으로 제공되며, 취약점 분석 �
 - 파일 업로드/다운로드 취약점
   
 
-### 🔎 테스트 도구
-Burp Suite - HTTP 트래픽 분석 및 공격 자동화
-OWASP ZAP - 자동화된 보안 취약점 점검
-SQLMap - SQL Injection 탐지 및 공격 도구
+### 🔎 사용 도구
+- Burp Suite - HTTP 트래픽 분석 및 공격 자동화
+- Frida - 모바일 후킹
+- JADX - 모바일 소스 코드 디컴파일
 
 ---
 
